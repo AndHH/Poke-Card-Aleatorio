@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card PokeAPI</title>
+    <link rel="shortcut icon" href="img/pokebola.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/Style.css">
+    <meta name="og:title" content="Poké Card Aleatorio">
+    <meta name="og:description" content="Aparece un pokémon aleatorio de la 1ra a la 3ra generación.">
+    <meta name="og:url" content="Poké Card Andrés HH">
+    <meta name="og:site_name" content="PokéCard-Andrés-HH.com">
+    <meta name="og:image" content="https://drive.google.com/file/d/1UWyck6A-kQO1L4Aj8OwuTUm_pPOw3d2F/view">
+</head>
+<body>
+    <main class="flex"></main>
+    <template id="card">
+        <article class="card">
+            <img src="img/bg-pattern-card.svg" alt="imagen header card" class="card-header">
+            <div class="card-body">
+                <img src="" alt="" class="card-body-img">
+                <h1 class="card-body-title">
+                    Andrés Herrera
+                    <span>19</span>
+                </h1>
+                <p class="card-body-text">Perú</p>
+            </div>
+            <div class="card-footer">
+                <div class="card-footer-social">
+                    <h3>80K</h3>
+                    <p>Ataque</p>
+                </div>
+                <div class="card-footer-social">
+                    <h3>803K</h3>
+                    <p>Ataque Especial</p>
+                </div>
+                <div class="card-footer-social">
+                    <h3>1.4K</h3>
+                    <p>Defensa</p>
+                </div>
+                
+            </div>
+            <div class="Cardinput">
+                <input type="button" value="Actualizar" onclick="location.reload()"/>
+        </article>
+    </template>
+    <script src="js/app.js"></script>
+    <!-- Hecho por Andrés Herrera -->
+</body>
+</html>
